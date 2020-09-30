@@ -1,0 +1,17 @@
+{
+  "name": "bogosort-x",
+  "version": "1.0.0",
+  "description": "bogosort, but with that x factor",
+  "main": "index.ts",
+  "author": "jelkand",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^7.10.0",
+    "jest": "^26.4.2",
+    "prettier": "^2.1.2",
+    "typescript": "^4.0.3"
+  },
+  "scripts": {
+    "build": "tsc"
+  }
+}
