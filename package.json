@@ -2,7 +2,8 @@
   "name": "bogosort-x",
   "version": "1.0.0",
   "description": "bogosort, but with that x factor",
-  "main": "index.ts",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
   "author": "jelkand",
   "license": "MIT",
   "devDependencies": {
@@ -15,6 +16,7 @@
   },
   "scripts": {
     "build": "tsc",
-    "test": "jest"
+    "test": "jest",
+    "prepublish": "tsc"
   }
 }
