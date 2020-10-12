@@ -1,6 +1,6 @@
 {
   "name": "bogosort-x",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "bogosort, but with that x factor",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -18,5 +18,8 @@
     "build": "tsc",
     "test": "jest",
     "prepublish": "tsc"
-  }
+  },
+  "files": [
+    "/dist"
+  ]
 }
